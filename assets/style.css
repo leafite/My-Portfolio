@@ -1,0 +1,105 @@
+header{
+    background-color: #363636;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;   
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    min-width: 300px;
+    list-style: none;
+}
+
+nav a{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.left {
+    float: left;
+    margin-right: 300px;
+}
+
+.right {
+    float: right;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+body{
+    background-color: aliceblue;
+    font-size: 20px;
+    color: black;
+}
+
+body img{
+    max-height: 600px;
+    max-width: 450px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 15px solid;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+body section p{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    background-color: white;
+}
+
+footer{
+    background-color: navy;
+    display: flex;
+    padding: 2%;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+footer p{
+    text-align: center;
+    display: inline;
+    position: relative;
+}
+
+footer a{
+    display: flex;
+    text-align: right;
+    text-decoration: none;
+    color: white;
+}
+
+.about-me{
+    flex: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 25px;
+    border: 1px solid;
+    background-color: white;
+    max-width: 600px;
+}
+
+.contact-me{
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    main,
+    nav {
+      flex-direction: column;
+    }
+}
