@@ -154,6 +154,10 @@ figure span img{
         font-size: 20px;
         flex-direction: column;
     }
+
+    .about-me img{
+        width:60%
+    }
 }
 
 
@@ -174,5 +178,9 @@ figure span img{
     footer{
         font-size: 12px;
         flex-direction: column;
+    }
+
+    .about-me img{
+        width: 100%
     }
 }
