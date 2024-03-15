@@ -1,6 +1,7 @@
 header{
     background-color: #363636;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 2%;
@@ -46,7 +47,7 @@ body img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 15px solid;
+    border: 5px solid;
     margin-top: 25px;
     margin-bottom: 25px;
 }
@@ -85,9 +86,7 @@ footer a{
 
 .about-me{
     flex: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 25px;
+    margin: auto;
     border: 1px solid;
     background-color: white;
     max-width: 600px;
@@ -96,6 +95,37 @@ footer a{
 .contact-me{
     display: flex;
 }
+
+.work{
+    display: flex;
+    flex-direction: column;
+}
+
+
+figure a:hover{
+    transition-duration: 0.5ms;
+    filter: brightness(50%);
+}
+
+
+figure span{
+    display: block;
+    max-width: fit-content;
+    max-height: fit-content;
+    background-color: black;
+    color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+section div img{
+    max-width: 80%;
+    max-height: 700px;
+    min-height: 25%;
+    min-width: 25%;
+}
+
 
 @media screen and (max-width: 768px) {
     main,
